@@ -1,0 +1,7 @@
+# 文本文件使用 Neovim 打开。
+# %s 会被替换为 Yazi 已正确转义的所选文件路径。
+# block=true 让 Neovim 接管终端；退出后继续回到 Yazi。
+[opener]
+edit = [
+    { run = 'nvim %s', desc = "Neovim", block = true, for = "unix" },
+]

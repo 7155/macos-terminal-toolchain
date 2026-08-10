@@ -1,0 +1,10 @@
+# Ghostty 负责终端显示，并把每个新终端交给 Fish。
+theme = Catppuccin Mocha
+font-family = MesloLGS NF
+font-size = 14
+
+# Apple Silicon Homebrew 的 Fish 路径。
+command = /opt/homebrew/bin/fish
+
+window-padding-x = 12
+window-padding-y = 8
